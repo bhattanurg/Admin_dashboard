@@ -1,0 +1,25 @@
+.Bar {
+    padding: 19px 8px 19px 25px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #3d5170;
+    border-bottom: 1px solid #e1e5eb;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+input {
+    border: none;
+    font-size: 12px;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+}
+
+.userName {
+    cursor: pointer;
+}

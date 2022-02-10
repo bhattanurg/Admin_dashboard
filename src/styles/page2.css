@@ -1,0 +1,33 @@
+.Table {
+    padding: 12px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    padding: 12px;
+    margin-top: 20px;
+    box-shadow: 0 2px 0 rgb(90 97 105 / 11%), 0 4px 8px rgb(90 97 105 / 12%), 0 10px 10px rgb(90 97 105 / 6%), 0 7px 70px rgb(90 97 105 / 10%);
+}
+
+.sampleTable {
+    width: 100%;
+    font-size: inherit;
+    color: #5A6169;
+}
+
+tr {
+    padding: 12px;
+    border-bottom: 1px solid #DEE2E6;
+    cursor: pointer;
+}
+
+tr:hover {
+    background-color: #fbfbfb;
+}
+
+th {
+    background-color: #fbfbfb;
+}
+
+td,
+th {
+    padding: 12px;
+}

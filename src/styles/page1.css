@@ -1,0 +1,82 @@
+.box {
+    box-shadow: 0 2px 0 rgb(90 97 105 / 11%), 0 4px 8px rgb(90 97 105 / 12%), 0 10px 10px rgb(90 97 105 / 6%), 0 7px 70px rgb(90 97 105 / 10%);
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 12px;
+    color: #3d5170;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.blogHead {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #3d5170;
+    font-weight: 700;
+}
+
+.dashHead {
+    color: #818ea3;
+    font-size: 10px;
+    margin: 0;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.greenSub {
+    color: #17C671 !important;
+}
+
+.redSub {
+    color: #C4183C !important;
+}
+
+.box2 {
+    height: 360px;
+}
+
+.box3 {
+    height: 170px;
+}
+
+.box:hover {
+    box-shadow: 0 2px 0 #C4C4C4, 0 4px 8px #C4C4C4, 0 5px 5px #C4C4C4, 0 5px 20px #C4C4C4;
+}
+
+.progress {
+    height: 6%;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.bg-success {
+    background-color: #67CACA !important;
+}
+
+.bg-info {
+    background-color: #B088FF !important;
+}
+
+.bg-warning {
+    background-color: #FFDA81 !important;
+}
+
+.bg-danger {
+    background-color: #FF7693 !important;
+}
+
+.bg-data {
+    background-color: #FF9F40 !important;
+}
+
+.subHead {
+    font-size: 14px;
+    color: #818ea3;
+    margin: 8px 0;
+}
